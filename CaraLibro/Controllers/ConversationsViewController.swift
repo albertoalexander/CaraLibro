@@ -12,7 +12,6 @@ class ConversationsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
         
     }
     
@@ -27,9 +26,7 @@ class ConversationsViewController: UIViewController {
             let vc = LoginViewController()
             let nav = UINavigationController(rootViewController: vc)
             nav.modalPresentationStyle = .fullScreen
-            
             present(nav, animated: false)
-            
         }
     }
 
