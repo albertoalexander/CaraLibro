@@ -25,6 +25,7 @@
 		07E084012885C67700A1CE06 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E084002885C67700A1CE06 /* ProfileViewController.swift */; };
 		07E084072885D7F200A1CE06 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E084062885D7F200A1CE06 /* Extensions.swift */; };
 		52EAD7048DF3CC73DD431895 /* Pods_CaraLibro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EDCE7D194CBA1AC44472AF /* Pods_CaraLibro.framework */; };
+		7B9FDBBD288941640024D4C3 /* ConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9FDBBC288941640024D4C3 /* ConversationTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		07E084002885C67700A1CE06 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		07E084062885D7F200A1CE06 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3E8CCBE19E1A51EEA07D5286 /* Pods-CaraLibro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaraLibro.release.xcconfig"; path = "Target Support Files/Pods-CaraLibro/Pods-CaraLibro.release.xcconfig"; sourceTree = "<group>"; };
+		7B9FDBBC288941640024D4C3 /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTableViewCell.swift; sourceTree = "<group>"; };
 		A0EDCE7D194CBA1AC44472AF /* Pods_CaraLibro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaraLibro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F77AE108F131BF3BF6317E35 /* Pods-CaraLibro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaraLibro.debug.xcconfig"; path = "Target Support Files/Pods-CaraLibro/Pods-CaraLibro.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +125,7 @@
 			children = (
 				07E083EF2885C3B700A1CE06 /* Storyboards */,
 				07E083DE2885C2B100A1CE06 /* Assets.xcassets */,
+				7B9FDBBC288941640024D4C3 /* ConversationTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				07E083D62885C2B000A1CE06 /* AppDelegate.swift in Sources */,
 				07E084012885C67700A1CE06 /* ProfileViewController.swift in Sources */,
 				07E083D82885C2B000A1CE06 /* SceneDelegate.swift in Sources */,
+				7B9FDBBD288941640024D4C3 /* ConversationTableViewCell.swift in Sources */,
 				076263532887024F00F8782D /* ChatViewController.swift in Sources */,
 				07E083F82885C5F900A1CE06 /* PhotoViewerViewController.swift in Sources */,
 				07626370288720DE00F8782D /* StorageManager.swift in Sources */,
